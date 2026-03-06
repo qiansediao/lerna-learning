@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.26" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const useChoice = localStorage.getItem('vuepress-color-scheme')
+      const systemStatus =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (useChoice === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (useChoice === 'dark' || systemStatus) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title></title><meta name="description" content="这是我的第一个 VuePress 站点">
+    <link rel="preload" href="/lerna-learning/assets/style-BV-xTeYs.css" as="style"><link rel="stylesheet" href="/lerna-learning/assets/style-BV-xTeYs.css">
+    <link rel="modulepreload" href="/lerna-learning/assets/app-D_GdL9N6.js"><link rel="modulepreload" href="/lerna-learning/assets/404.html-Bq5YzTuR.js">
+    <link rel="prefetch" href="/lerna-learning/assets/index.html-Cs8Peavq.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-5d9279e1><main class="page" data-v-5d9279e1><div vp-content data-v-5d9279e1><h1 data-v-5d9279e1>404</h1><blockquote data-v-5d9279e1>There&#39;s nothing here.</blockquote><a class="route-link" href="/lerna-learning/" data-v-5d9279e1>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/lerna-learning/assets/app-D_GdL9N6.js" defer></script>
+  </body>
+</html>
