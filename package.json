@@ -2,7 +2,7 @@
   "name": "root",
   "private": true,
   "workspaces": [
-    "packages/*"
+    "packages/*" 
   ],
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.26",
