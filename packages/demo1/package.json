@@ -1,5 +1,5 @@
 {
-  "name": "demo1",
+  "name": "lj-demo1",
   "version": "0.0.0",
   "description": "> TODO: description",
   "homepage": "",
@@ -17,6 +17,7 @@
     "test": "node ./__tests__/demo1.test.js"
   },
   "publishConfig": {
-    "registry": "https://registry.npmmirror.com"
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }
